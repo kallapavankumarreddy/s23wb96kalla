@@ -9,7 +9,7 @@ block content
         each item,index in results
             div(class="col-sm-2" onclick=`buy(${index})`)
                 p brand:  #{item.brand} 
-                p price: #{item.cost}
+                p price: #{item.price}
                 p color: #{item.color}
     script.
       function buy(index)
